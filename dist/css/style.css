@@ -6,10 +6,15 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #946464;
 }
 
 header button {
   background: #96409e;
+}
+
+header button::after {
+  content: "Hellooooo";
 }
 
 .contact button {
