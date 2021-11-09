@@ -1,0 +1,15 @@
+$primayBtn : rgb(150, 64, 158);
+
+header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+header button {
+  background: $primayBtn;
+}
+
+.contact button {
+  background: $primayBtn;
+}
